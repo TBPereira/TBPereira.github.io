@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height:100%;
+}
+
+body{
+    background: rgb(122,85,122);
+    background: linear-gradient(180deg, rgba(122,85,122,1) 0%, rgba(236,230,238,0.9472163865546218) 100%);
+    color:white;
+    font-family: 'Courgette', cursive;
+    font-weight: 100;
+}
+
+.profile{
+    text-align:center;
+    margin: 20px;
+}
+.avatar{
+    width:150px;
+    border-radius:125%;
+    border: 3px solid #b3b3b3;
+    box-shadow: 0 0 20px rgb(255 255 255);
+}
+
+h1{
+    font-family:'Architects Daughter', cursiva;
+    font-size:24px;
+}
+
+h2{
+    font-size:16px;
+    font-size: small;
+}
+
+.social img{
+    width: 33px;
+      
+}
+
+.social{
+    list-style: none;
+    display:flex;
+    justify-content:space-around;
+    margin: 20px 0;
+}
+
+.link-list{
+   list-style: none;
+   margin-bottom:45px;
+}
+
+.link-list li{
+    margin: 10px 20px;
+}
+
+.link-list li a{
+    background: white;
+    border: 3px solid #897373;
+    box-shadow: 0 0 20px #897373;
+    border-radius: 14px;
+    padding: 10px;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: rgb(231, 153, 218)
+}
+
+.link-list li a span{
+    color:gray;
+    display:block;
+    margin-top: 10px;
+}
+
+
